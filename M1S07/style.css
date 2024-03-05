@@ -1,0 +1,60 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
+
+/* Root */
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #123456;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: tomato; 
+}
+
+.header {
+display: flex;
+justify-content: center;
+  background-color: #95a5a6;
+  color: #fff;
+  padding: 20px;
+}
+.header h1 {
+color: #fff;
+}
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 220px; 
+}
